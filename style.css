@@ -12,13 +12,13 @@ header {
 
 .site-title {
     margin-left: 20px;
-    color: white;
     font-family: "Roboto Slab", serif;
     font-size: 72px;
     font-weight: normal;
 }
 
 .site-title a {
+    color: white;
     text-decoration: none;
 }
 
@@ -108,17 +108,26 @@ body {
 
 .post {
     width: 260px;
-    height: 290px;
+    min-height: 290px;
     border: 1px solid lightgray;
     margin-right: 10px;
     margin-bottom: 10px;
-    display: inline-flex;
+    display: inline-block;
     vertical-align: top;
     padding: 10px;
 }
 
+.post-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 250px;
+    overflow: hidden;
+}
+
 .post-image-container img {
-    width: 100%;    
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .post-info-container {
