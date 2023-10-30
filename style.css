@@ -16,7 +16,11 @@ header {
     font-size: 72px;
 }
 
-.site-title:visited {
+.site-title a:visited {
+    color: white;
+}
+
+.site-title a:active {
     color: white;
 }
 
