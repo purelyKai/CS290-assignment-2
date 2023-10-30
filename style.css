@@ -11,6 +11,7 @@ header {
 }
 
 .site-title {
+    margin-left: 20px;
     color: white;
     font-family: "Roboto Slab", serif;
     font-size: 72px;
@@ -30,23 +31,47 @@ header {
 }
 
 body {
-    margin: 0
+    margin: 0px;
 }
 
 .content {
     font-family: "Roboto", serif;
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: 260px;
 }
 
 .filter-container {
     position: absolute;
     margin-left: 10px;
-    left: 0;
-    width: 170px;
+    left: 0px;
+    width: 190px;
     height: 350px;
     background-color: #f1f1f1;
     padding: 20px;
+}
+
+.filter-container h2 {
+    margin-top: 0px;
+}
+
+.filter-input-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.filter-input-element .filter-input {
+    margin-left: 10px;
+    width: 62px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.filter-input-element #filter-text {
+    width: 146px;
+}
+
+.filter-input-element #filter-city {
+    width: 155px;
 }
 
 
