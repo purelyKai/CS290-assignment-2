@@ -1,4 +1,10 @@
 /*
  * name: Kai Black
  * email: blackkai@oregonstate.edu
- */
+*/
+
+.site-title {
+    font-family: "Roboto Slab", serif;
+    font-size: 72px;
+}
+
