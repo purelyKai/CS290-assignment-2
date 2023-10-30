@@ -7,6 +7,7 @@ header {
     background-color: black;
     display: flex;
     align-items: left;
+    height: 150px;
 }
 
 .site-title {
