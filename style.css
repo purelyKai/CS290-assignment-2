@@ -6,12 +6,11 @@
 .site-title {
     font-family: "Roboto Slab", serif;
     font-size: 72px;
-    text-decoration: none;
 }
 
-/*.site-title a {
+.site-title a {
     text-decoration: none;
-}*/
+}
 
 .content {
     font-family: "Roboto", serif;
