@@ -14,6 +14,7 @@ header {
     color: white;
     font-family: "Roboto Slab", serif;
     font-size: 72px;
+    font-weight: normal;
 }
 
 .site-title a {
@@ -28,16 +29,21 @@ header {
     color: white;
 }
 
+body {
+    margin: 0
+}
+
 .content {
     font-family: "Roboto", serif;
-    margin-left: 220px;
+    margin-top: 10px;
+    margin-left: 240px;
 }
 
 .filter-container {
     position: absolute;
-    top: 150;
+    margin-left: 10px;
     left: 0;
-    width: 190px;
+    width: 170px;
     height: 350px;
     background-color: #f1f1f1;
     padding: 20px;
