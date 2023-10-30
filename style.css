@@ -14,11 +14,16 @@ header {
     color: white;
     font-family: "Roboto Slab", serif;
     font-size: 72px;
-}
-
-.site-title a {
     text-decoration: none;
 }
+
+.site-title:visited {
+    color: white;
+}
+
+/*.site-title a {
+    text-decoration: none;
+}*/
 
 .content {
     font-family: "Roboto", serif;
