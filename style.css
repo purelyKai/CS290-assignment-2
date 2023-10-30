@@ -3,7 +3,14 @@
  * email: blackkai@oregonstate.edu
 */
 
+header {
+    background-color: black;
+    display: flex;
+    align-items: left;
+}
+
 .site-title {
+    color: white;
     font-family: "Roboto Slab", serif;
     font-size: 72px;
 }
