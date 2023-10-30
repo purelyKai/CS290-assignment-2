@@ -80,6 +80,10 @@ body {
     border: 1.2px solid silver;
 }
 
+.filter-fieldset div {
+    font-weight: 500;
+}
+
 .action-button {
     margin-top: 20px;
     justify-content: center;
@@ -102,4 +106,30 @@ body {
     cursor: pointer;
 }
 
+/* Posts */
 
+#sell-something-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#sell-something-button:hover {
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 34px;
+    line-height: 60px;
+    cursor: pointer;
+}
